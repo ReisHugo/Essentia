@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   m_Layer: 0
-  m_Name: Protagonist Camera
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -510,12 +510,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4246283619315294206}
   m_PrefabAsset: {fileID: 0}
---- !u!143 &979568814 stripped
-CharacterController:
-  m_CorrespondingSourceObject: {fileID: 4246283619249926470, guid: d456ead5181fa2e42a33330b0149a04a,
-    type: 3}
-  m_PrefabInstance: {fileID: 4246283619315294206}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &979568815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,7 +522,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5487cd5fc54bde845a78872e8ad1b9b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controller: {fileID: 979568814}
 --- !u!1 &1458566271
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,4 +761,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4246283619249926471, guid: d456ead5181fa2e42a33330b0149a04a, type: 3}
+    - {fileID: 4246283619249926477, guid: d456ead5181fa2e42a33330b0149a04a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d456ead5181fa2e42a33330b0149a04a, type: 3}
