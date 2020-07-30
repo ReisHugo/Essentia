@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAssembly", "GameAssembly.csproj", "{98EB2DA5-94A3-0D1C-F2B1-5EF9F7847796}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{1656AB8A-BE8F-41F5-EB13-F868393EAD6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,12 +15,11 @@ Global
 		{98EB2DA5-94A3-0D1C-F2B1-5EF9F7847796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98EB2DA5-94A3-0D1C-F2B1-5EF9F7847796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98EB2DA5-94A3-0D1C-F2B1-5EF9F7847796}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1656AB8A-BE8F-41F5-EB13-F868393EAD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1656AB8A-BE8F-41F5-EB13-F868393EAD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1656AB8A-BE8F-41F5-EB13-F868393EAD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1656AB8A-BE8F-41F5-EB13-F868393EAD6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7843C320-52CB-4BCC-B1B3-5FC15F791598}
 	EndGlobalSection
 EndGlobal

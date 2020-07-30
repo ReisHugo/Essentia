@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{98EB2DA5-94A3-0D1C-F2B1-5EF9F7847796}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -67,7 +68,6 @@
     <Compile Include="Assets\Scripts\Gravity.cs" />
     <Compile Include="Assets\Scripts\MainCharacter.cs" />
     <Compile Include="Assets\Scripts\MainCharacterMovement.cs" />
-    <None Include="Assets\Scripts\GameAssembly.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/2019.4.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -618,7 +618,8 @@
       <HintPath>C:/Users/hugox/Documents/Projetos/PERSONAL/Essentia/Essentia/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
