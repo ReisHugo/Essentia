@@ -2,25 +2,26 @@
 
 public class Gravity : MonoBehaviour
 {
-    public Vector3 playerVelocity;
-    private bool groundedPlayer;
+    private Vector3 objectVelocity;
+    private bool groundedObject;
     private float gravityValue = -9.81f;
-    public CharacterController controller;
+    private CharacterController _controller;
 
-    public void FixedUpdate()
+    public void Init(CharacterController controller)
     {
-        CreateGravity();
+        _controller = controller;
     }
         
-    void CreateGravity()
+    public void CreateGravity()
     {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
+        groundedObject = _controller.isGrounded;
+        
+        if (groundedObject && objectVelocity.y < 0)
         {
-            playerVelocity.y = 0f;
+            objectVelocity.y = 0f;
         }
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
+
+        objectVelocity.y += gravityValue * Time.deltaTime;
+        _controller.Move(objectVelocity * Time.deltaTime);
     }
-    
 }
