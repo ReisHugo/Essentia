@@ -1,0 +1,2 @@
+$ git remote update origin --prune //Atualiza branches remotos
+$ git push origin --force //Força a mandar o commit para a branch que está dentro
